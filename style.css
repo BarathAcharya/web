@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body{
+    position: relative;
+    z-index: 1;
+   
+    height:100vh;
+    width:100%;
+    background-image: url(images/hero-bg.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+   
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    margin-right:6px;
+}
+.her-content{
+    padding:90px;
+    align-items: center;
+    
+}
+.her-content h1 p{
+    font-weight:bold;
+
+}
+.btn-primary{
+   background-color:#fff;
+    border-radius: 50px;
+    color:#000;
+    border-color:#fff;
+}
+.btn-primary:hover{
+    background-color:rgba(243, 106, 62, 1);
+
+}
+.navbar-toggler-icon {
+    color:#fff;
+}
+#about{
+    padding:50px;
+}
+#courses{
+    padding:50px;
+    background-color:orange;
+}
+h3{
+    color:#fff;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #000; 
+  }
+  #work{
+    background-color:orange;
+    padding:50px;
+  }
+  .bnr{
+    padding:12px;
+  }
+  #contact{
+      padding:50px;
+  }
+#contact .btn-primary{
+    background-color:orange;
+}
+#about .btn-primary{
+    background-color:orange;
+}
