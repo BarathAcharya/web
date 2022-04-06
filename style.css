@@ -69,7 +69,13 @@ h3{
     padding:50px;
   }
   .bnr{
-    padding:12px;
+    padding:10px;
+  }
+  #footer ul>li{
+      list-style-type: none;
+  }
+  a{
+      color:black;
   }
   #contact{
       padding:50px;
@@ -79,4 +85,10 @@ h3{
 }
 #about .btn-primary{
     background-color:orange;
+}
+#footer{
+    padding:50px !important;
+}
+.ftt{
+    background-color: orange;
 }
